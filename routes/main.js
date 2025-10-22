@@ -5,8 +5,22 @@ const router = express.Router();
 //Handles the main routes
 //Defines the route for the Home Page
 router.get("/", (req, res) => res.send("Hello World!"));
+
 //Defines the route for the "/about" Page
 router.get("/about", (req, res) => res.send("<h1>This is about page</h1>"));
+
+//Defines the route for the "/contact" Page
+router.get("/contact", (req, res) => {
+  res.send(`
+    <h1>Contact Us</h1>
+    <p>If you’d like to get in touch, here are my contact details:</p>
+    <ul>
+      <li><strong>Name:</strong> Saqib Choudhury</li>
+      <li><strong>Email:</strong> schou008@gold.ac.uk</li>
+    </ul>
+    <p>We’ll get back to you as soon as possible!</p>
+  `);
+});
 
 //Defines the route for the "/date" Page
 router.get("/date", (req, res) => {
