@@ -23,7 +23,7 @@ cd 04_express_33798394
 Install Node.js if you have not, you can do this from nodejs.org. If you have already installed Node.js you can skip this step
 
 3. Install the Express Framework
-Install the express framwork, you can do this by typing in the command below:
+Install the express framework, you can do this by typing in the command below:
 npm install express
 
 If you already have the express framework the you can skip this step
@@ -45,3 +45,6 @@ Added README.md file containing information about the web application such as wh
 
 1.2
 Added links.txt file containing links to access the web application on the VM (Virtual Machine)
+
+1.3
+Added another route which is "/contact" which will direct you to a contact page showing my name and email 
