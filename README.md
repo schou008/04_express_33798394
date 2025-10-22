@@ -38,3 +38,6 @@ Initial Version of the Web Application containing index.js file, package.json fi
 
 1.1
 Added README.md file containing information about the web application such as what it is about, what technologies used, explaining how to run and use the app and versions of the web application
+
+1.2
+Added links.txt file containing links to access the web application on the VM (Virtual Machine)
