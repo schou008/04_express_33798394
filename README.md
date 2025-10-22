@@ -3,9 +3,13 @@ This web application is a basic Node.js web server built using the Express frame
 
 ## Technologies Used
 Node.js - Running the Server with node.js
+
 NPM (Node Package Manager) - Manages Node.js Packages
+
 Express Framework - Manages Routing requests
+
 JavaScript - The Programming Language
+
 HTML - Displays the Web Application in the Browser
 
 ## How to Install and Run Locally
